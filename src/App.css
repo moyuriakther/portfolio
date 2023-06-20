@@ -139,7 +139,9 @@ button:focus {
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
-
+.name {
+  font-family: "New Rocker", cursive;
+}
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;

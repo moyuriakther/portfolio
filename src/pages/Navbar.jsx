@@ -37,8 +37,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-          {/* <h3 className="logo">Moyuri</h3> */}
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <h3 className="logo name">MoA..</h3>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -98,7 +98,11 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-              <Button href="" target="_blank" className="fork-btn-inner">
+              <Button
+                href="https://github.com/moyuriakther/portfolio.git"
+                target="_blank"
+                className="fork-btn-inner"
+              >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
