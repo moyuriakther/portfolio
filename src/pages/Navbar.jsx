@@ -12,7 +12,7 @@ import {
   AiOutlineUser,
   AiOutlineArrowDown,
 } from "react-icons/ai";
-import logo from "../assets/icons/logo.png";
+// import logo from "../assets/icons/logo.png";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -79,7 +79,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://drive.google.com/uc?export=download&id=1_-Y9m_sKIdzAZneEPRGdnSFEjSmAsg-M"
+                href="https://drive.google.com/file/d/19TNVhVzGAD59txHMm1jFpRSgzqeaPkPx/view?usp=drive_link"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineArrowDown style={{ marginBottom: "2px" }} /> Download

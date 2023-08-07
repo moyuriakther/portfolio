@@ -1,44 +1,41 @@
 import { Container, Row } from "react-bootstrap";
 import Project from "../components/Project";
 import Particle from "../components/Particle";
-import leaf from "../assets/Projects/leaf.png";
-// import emotion from "../assets/Projects/emotion.png";
-// import editor from "../assets/Projects/codeEditor.png";
-import chatify from "../assets/Projects/chatify.png";
-// import suicide from "../assets/Projects/suicide.png";
-import bitsOfCode from "../assets/Projects/blog.png";
+import admin from "../assets/Projects/admin.png";
+import todo from "../assets/Projects/todo.png";
+import shop from "../assets/Projects/shop.png";
 
 function Projects() {
   const projects = [
     {
       id: 1,
-      imgPath: chatify,
+      imgPath: shop,
       isBlog: false,
-      title: "Chatify",
+      title: "Shoe Shop",
       description:
-        "Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.",
-      ghLink: "https://github.com/soumyajit4419/Chatify",
-      demoLink: "https://chatify-49.web.app/",
+        "Full-featured shopping cart with Product reviews and ratings, Instant search for the product. User profile with orders. Checkout process, stripe payment gateway integration is processing. ",
+      ghLink: "https://github.com/moyuriakther/shop",
+      demoLink: "https://vite-react-shop.web.app",
     },
     {
       id: 2,
-      imgPath: bitsOfCode,
+      imgPath: admin,
       isBlog: false,
-      title: "Bits-0f-C0de",
+      title: "Shop Admin panel",
       description:
-        "My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown.",
-      ghLink: "https://github.com/soumyajit4419/Bits-0f-C0de",
-      demoLink: "https://blogs.soumya-jit.tech/",
+        "It’s an online e-commerce admin panel. Only the admin can login. admin can add a new product, update an already existing product and also delete an existing product. also, the admin can monitor order details like order is paid or not, the order is delivered or not.",
+      ghLink: "https://github.com/moyuriakther/admin",
+      demoLink: "https://vite-shop-admin.web.app",
     },
     {
       id: 3,
-      imgPath: leaf,
+      imgPath: todo,
       isBlog: false,
-      title: "Plant AI",
+      title: "Add ToDo",
       description:
-        "Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model.",
-      ghLink: "https://github.com/soumyajit4419/Plant_AI",
-      demoLink: "https://plant49-ai.herokuapp.com/",
+        "Add Your Daily Tasks. and organize them from most to least importance.",
+      ghLink: "https://github.com/moyuriakther/ToDo-List",
+      demoLink: "https://todo-list-c857b.web.app",
     },
   ];
 

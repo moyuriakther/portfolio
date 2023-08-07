@@ -6,7 +6,8 @@ function Title() {
       options={{
         strings: [
           "Software Developer",
-          "Freelancer",
+          "Frontend Developer",
+          "React Developer",
           "MERN Stack Developer",
           "Open Source Contributor",
         ],
